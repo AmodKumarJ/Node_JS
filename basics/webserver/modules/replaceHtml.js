@@ -1,4 +1,4 @@
-module.exports = function(templet,product){
+module.exports = function(templet,product){ 
     let output = templet.replace('{{%IMAGE%}}',product.productImage)
     output = output.replace('{{%NAME%}}',product.name)
     output = output.replace('{{%MODELNO%}}',product.modelNumber)

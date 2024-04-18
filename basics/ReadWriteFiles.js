@@ -4,4 +4,5 @@ let textin = fs.readFileSync('./file.txt','utf-8')//path of the file,encoding (r
 console.log(textin)
 
 let Content  = `i am writting the data ${textin} \n Date Created ${new Date()}`
-fs.writeFileSync('./writeFile.txt',Content)//file path were we wan to write
+fs.writeFileSync('./writeFile.txt',Content)//file path were we wan to write 
+//sync are blocking code
